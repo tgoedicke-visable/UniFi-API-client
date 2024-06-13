@@ -33,6 +33,11 @@ $wlan_id = '<the value of _id for the WLAN you wish to change>';
 $new_password = '<new password goes here>';
 
 /**
+ * include the wlan config file
+ */
+require_once 'wlan_config.php';
+
+/**
  * initialize the UniFi API connection class and log in to the controller
  */
 $unifi_connection = new UniFi_API\Client(

@@ -1,5 +1,6 @@
 # Ignore personal config file
 /examples/config.php
+/examples/wlan_config.php
 
 # ignore accidentally generated vendor directory and composer.lock file, just in case...
 /vendor/
