@@ -20,22 +20,17 @@ require_once 'config.php';
 /**
  * The site to which the WLAN you want to modify belongs
  */
-$site_id = '<enter your (short) site name here>';
+//$site_id = '<enter your (short) site name here>';
 
 /**
  * the id of the WLAN you wish to modify
  */
-$wlan_id = '<the value of _id for the WLAN you wish to change>';
+//$wlan_id = '<the value of _id for the WLAN you wish to change>';
 
 /**
  * the new WPA2 password/PSK to apply to the above WLAN
  */
-$new_password = '<new password goes here>';
-
-/**
- * include the wlan config file
- */
-require_once 'wlan_config.php';
+//$new_password = '<new password goes here>';
 
 /**
  * initialize the UniFi API connection class and log in to the controller
